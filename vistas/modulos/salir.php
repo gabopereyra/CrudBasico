@@ -1,3 +1,12 @@
+<?php 
+
+session_start();
+
+session_destroy();
+
+?>
+
+
 <section>
 
 	<br><br><br><hr>
