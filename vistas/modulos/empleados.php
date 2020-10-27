@@ -42,3 +42,11 @@ if (!$_SESSION["Ingreso"]) {
 	</tbody>
 
 </table>
+
+<?php 
+
+$eliminar = new EmpleadosC();
+$eliminar -> EliminarEmpleadosC();
+
+
+?>
