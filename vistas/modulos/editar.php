@@ -9,20 +9,19 @@ if (!$_SESSION["Ingreso"]) {
 ?>
 
 <br>
-<h1>EDITAR</h1>
+<h1>EDITAR EMPLEADO</h1>
 
 <form method="post">
 
-
-
-
-
     <?php
 
-$registrar = new EmpleadosC();
-$registrar -> EditarEmpleadosC();
+    $registrar = new EmpleadosC();
+    $registrar -> EditarEmpleadosC();
 
-?>
+    $registrar = new EmpleadosC();
+    $registrar -> ActualizarEmpleadosC();
+
+    ?>
 
 </form>
 
